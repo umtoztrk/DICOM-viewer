@@ -15,13 +15,21 @@ A comprehensive medical imaging management system designed for Eskişehir Osmang
 ## System Architecture
 project/
 ├── app.py # Main application
+
 ├── Filters.py # 28 medical image processing algorithms
+
 ├── Qdrant.py # Vector database operations
+
 ├── SQLite.py # Relational database operations
+
 ├── UI/ # User interface components
+
 │ ├── mainMenuUI.py # Main window
+
 │ ├── editReportUI.py # Report editor
+
 │ └── widgetFinalv2.py # DICOM tag viewer
+
 └── requirements.txt # Dependencies
 
 
@@ -81,5 +89,7 @@ project/
    ```bash
    python app.py
 
+## Requirements
 
-  
+This project uses Qdrant for vector database operations. Before running the application, ensure the Qdrant server is running. For Qdrant installation instructions, <a href="https://qdrant.tech/documentation/install/" target="_blank">you can click here</a>.
+The setup above requires Docker. If you cannot use Docker, you can also run the Qdrant server using the <a href="https://qdrant.tech/documentation/install/#binary" target="_blank">here</a>

@@ -92,4 +92,5 @@ project/
 ## Requirements
 
 This project uses Qdrant for vector database operations. Before running the application, ensure the Qdrant server is running. For Qdrant installation instructions, <a href="https://qdrant.tech/documentation/install/" target="_blank">you can click here</a>.
-The setup above requires Docker. If you cannot use Docker, you can also run the Qdrant server using the <a href="https://qdrant.tech/documentation/install/#binary" target="_blank">here</a>
+
+The setup above requires Docker. If you cannot use Docker, you can also run the Qdrant server using the <a href="https://github.com/qdrant/qdrant/releases" target="_blank">here</a>.
